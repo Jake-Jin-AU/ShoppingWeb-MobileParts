@@ -6,6 +6,10 @@ text-align: center;
     margin-top: 3em;
 }
 
+.front-padding {
+    padding-top: 3em;
+}
+
 .end-margin {
     margin-bottom: 3em;
 }
