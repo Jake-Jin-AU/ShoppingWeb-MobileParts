@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CJ Mobile Shopping</title>
+<!--bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--bootstrap.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- my scripts -->
+    <link rel="stylesheet" href="../css/mycss.css">
+    <script type="text/javascript" src="../javascript/myjs.js"></script>
+<!-- Additional scripts -->
+    <link href="../css/products-category.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container">
+        <section class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h1 class="myalign"><a href="">CJ Mobile Parts</a></h1>
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </section>
+        
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html"><img src="#" alt="LOGO"></a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- Left on Navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Samsung Parts<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Galaxy</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Galaxy S21</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Note</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Note 20</a></li>
+                                    </ul>
+                                </li>
+                                <!--
+                                <li role="separator" class="divider"></li>
+                                -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apple Parts<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">iPhone</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">iPhone 12</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">iPad</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">iPad7 10.2</a></li>
+                                    </ul>
+                                </li>
+                                <!--
+                                <li role="separator" class="divider"></li>
+                                -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Samsung Accessories<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Case</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Case 1</a></li>
+                                        <li><a href="">Case 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Cable</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Cable 1</a></li>
+                                        <li><a href="">Cable 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Screen Protector</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Protector 1</a></li>
+                                        <li><a href="">Protector 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apple Accessories<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Case</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Case 1</a></li>
+                                        <li><a href="">Case 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Cable</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Cable 1</a></li>
+                                        <li><a href="">Cable 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-submenu"><a href="#" calss="dropdown-toggle" data-toggle="dropdown">Screen Protector</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Protector 1</a></li>
+                                        <li><a href="">Protector 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                <!-- Right on Navbar -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/members/sign-up.html">Register</a></li>
+                        <li><a href="/members/sign-in.html">Sign-in</a></li>
+                        <li><a href="/orders/checkout.html">Cart</a></li>  
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <section class="row">
+            <h1 class="hidden-title">Search Form</h1>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form class="myalign end-margin" action="">
+                    <fieldset>
+                        <legend class="hidden-title">Search Input Field</legend>
+                        <select>
+                            <option value="all">All</option>
+                            <option value="parts">Parts</option>
+                            <option value="accessories">Accessories</option>
+                        </select>
+                        <input type="text" placeholder="Search...">
+                        <button type="submit" value="Submit">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </section>
+    </header>
+    
+<!-- Breadcrumb -->
+    <main class="container">
+        <ol class="breadcrumb">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Samsung Parts</a></li>
+        </ol>
+
+<!-- Category -->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><i class="fa fa-list"></i> Categories</div>
+                    <ul class="panel-body">
+                        <li class="list-group-item"><a href="category.html">Galaxy</a></li>
+                        <li class="list-group-item"><a href="category.html">Note</a></li>
+                    </ul>
+                    <div class="panel-footer"></div>
+                </div>
+            </div>
+
+<!-- Products -->
+            <div class="col-sm-9">
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class="panel">
+                        <img src="https://dummyimage.com/250x300/55595c/fff" alt="Card image cap">
+                        <div class="panel-heading">
+                            <h4><a href="product.html" title="View Product">Product title</a></h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="col">
+                                <p class="btn btn-danger btn-block">$ 99.00</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+
+<!-- Pagination -->
+                <div colass="row">
+                    <div class="col-sm-12">
+                        <nav class="page-group" aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <div class="middle-heading title">Policy Info</div>
+                <ul class="middle-content ">
+                    <li><a class="underLineOnHover" href="#" data-abc="true">Privacy Policy</a></li>
+                    <li><a class="underLineOnHover" href="#" data-abc="true">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="middle-heading title">Company</div>
+                <ul class="middle-content">
+                    <li><a class="underLineOnHover" href="#" data-abc="true">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="middle-heading title" style="margin-left: 0px;">About Us</div>
+                <span class="address">
+                    CJ Mobile Parts, 13/120 Spencer St, Melbourne VIC 3000
+                </span>
+                <div>
+                    <h5 style="color: #EF5350;">Social connect</h5>
+                    <a href="#facebook">
+                        <img src="https://img.icons8.com/color/24/000000/facebook.png">
+                    </a>
+                    <a href="#instagram">
+                        <img src="https://img.icons8.com/office/20/000000/instagram-new.png">
+                    </a>
+                    <a href="#twitter">
+                        <img src="https://img.icons8.com/color/24/000000/twitter-squared.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container front-margin">
+            <p class="myalign">Copyright &copy; 2021 CJ Mobile Parts. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
