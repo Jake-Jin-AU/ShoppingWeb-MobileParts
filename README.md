@@ -1,6 +1,27 @@
 # ShoppingWeb-MobileParts
 
 ########################################################
+Written by Bo-Han Chen on 05/04/2021
+
+Functions updated:
+ - register
+ - sign-in
+
+########################################################
+Written by Bo-Han Chen on 03/04/2021
+
+Mandatory PHP file format uploaded, listed as below:
+ - connect.php
+ - dbconnect.php
+ - function.php
+ - home.php
+ - inseruser.php
+ - login.php
+ - logout.php
+ - verification.php
+ - index.php
+
+########################################################
 Written by Byungmu Jin on 02/04/2021
 
 Updates List
