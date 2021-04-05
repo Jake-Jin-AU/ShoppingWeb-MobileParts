@@ -1,6 +1,8 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CJ Mobile Shopping</title>
@@ -9,12 +11,21 @@
 <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--bootstrap.js-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- my scripts -->
     <link rel="stylesheet" href="./css/mycss.css">
     <script type="text/javascript" src="./javascript/myjs.js"></script>
 </head>
 <body>
+   
+<?php 
+   if($_SESSION["username"] == null||$_SESSION["username"]==""){
+        echo "need log in";
+    } else {
+        echo $_SESSION;
+  echo '<a href="logout.php">Log out</a>';
+  } 
+    ?>
     <header class="container">
         <section class="row">
             <div class="col-sm-3"></div>
@@ -131,10 +142,10 @@
                     </ul>
                 <!-- Right on Navbar -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/members/sign-up.html">Register</a></li>
-                        <li><a href="/members/sign-in.html">Sign-in</a></li>
-                        <li><a href="/orders/checkout.html">Cart</a></li>  
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="members/sign-up.html">Register</a></li>
+                        <li><a href="members/sign-in.html">Sign-in</a></li>
+                        <li><a href="orders/checkout.html">Cart</a></li>  
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
