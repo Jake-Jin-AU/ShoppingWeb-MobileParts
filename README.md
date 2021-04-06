@@ -1,6 +1,16 @@
 # ShoppingWeb-MobileParts
 
 ########################################################
+Written by Byungmu Jin on 06/04/2021
+
+Mid-term report file updated
+
+########################################################
+Written by Bo-Han Chen on 06/04/2021
+
+SQL file updated
+
+########################################################
 Written by Bo-Han Chen on 05/04/2021
 
 Functions updated:
