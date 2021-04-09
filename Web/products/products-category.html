@@ -177,13 +177,55 @@
         <div class="row">
             <div class="col-sm-3">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><i class="fa fa-list"></i> Categories</div>
+                    <!-- Categories -->
+                    <div class="panel-heading"><i class="fa fa-list"></i>Categories</div>
                     <ul class="panel-body">
-                        <li class="list-group-item"><a href="category.html">Galaxy</a></li>
-                        <li class="list-group-item"><a href="category.html">Note</a></li>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="model" aria-label="" checked> Galaxy
+                        </li>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="model" aria-label=""> Note
+                        </li>
+                    </ul>
+                    <div class="panel-footer"></div>
+                    <!-- Brand -->
+                    <div class="panel-heading"><i class="fa fa-list"></i>Brand</div>
+                    <ul class="panel-body">
+                        <li class="list-group-item">
+                            <input type="checkbox" name="brand" aria-label=""> Samsung                            <a href="category.html"></a>
+                        </li>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="brand" aria-label=""> Apple
+                        </li>
+                    </ul>
+                    <div class="panel-footer"></div>
+                    <!-- Price -->
+                    <div class="panel-heading"><i class="fa fa-list"></i>Price</div>
+                    <ul class="panel-body">
+                        <li class="list-group-item">
+<!-- Value is a return value when clicked -->
+                            <input type="radio" name="price" value=""> Under $25
+                        </li>
+                        <li class="list-group-item">
+                            <input type="radio" name="price" value=""> $25 to $50
+                        </li>
+                        <li class="list-group-item">
+                            <input type="radio" name="price" value=""> $50 to $150
+                        </li>
+                        <li class="list-group-item">
+                            <input type="radio" name="price" value=""> $150 and above
+                        </li>
+                        <li class="list-group-item">
+                            <input type="number" class="form-control" name="minValue" min="0" value="">
+                            <p>to</p>
+                            <input type="number" class="form-control" name="maxValue" min="0" value="">
+                            <p></p>
+                            <button type="submit" name="apply" value="">Apply</button>
+                        </li>
                     </ul>
                     <div class="panel-footer"></div>
                 </div>
+                
             </div>
 
 <!-- Products -->
