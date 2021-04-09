@@ -1,6 +1,11 @@
 # ShoppingWeb-MobileParts
 
 ########################################################
+Written by Byungmu Jin on 09/04/2021
+
+Filter updated with brand and price categories
+
+########################################################
 Written by Byungmu Jin on 06/04/2021
 
 Mid-term report file updated
