@@ -1,0 +1,24 @@
+[Keywords]
+mobigo
+accessories
+apple
+iphone
+ipad
+earphone
+headset
+bluetooth
+
+[Title]
+Mobigo bluetooth headset earphone
+
+[Price]
+$45.99
+
+[Color]
+white
+
+[Description]
+Mobigo High Sound Quality Headset with lightning
+
+[Specifications]
+none

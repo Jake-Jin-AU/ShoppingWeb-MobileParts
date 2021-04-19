@@ -1,0 +1,24 @@
+[Keywords]
+Parts
+Apple
+iPad
+Pro 10.5
+
+[Title]
+iPad Pro 10.5 Front Camera
+
+[Price]
+$8.60
+
+[Color]
+none
+
+[Description]
+- If front camera cannot capture photo and video that means your front camera is not working. This is the best choice of replacement part.
+- This front camera can solve problems like camera failed to open, blurry photos and video.
+- This replacement part is made from quality materials and precision machining.
+- Every part is tested before shipping.
+- Highly recommended for professional installation
+
+[Specifications]
+none
