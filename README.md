@@ -1,32 +1,46 @@
 # ShoppingWeb-MobileParts
+---
+### Updates
+---
+editor: Byungmu Jin\
+date: 19/04/2021\
+title: Products resources categorised updated\
+description:
+- image files
+- info txt files inc. keywords, information (name, price, color, description, specifications)
 
-########################################################
-Written by Byungmu Jin on 09/04/2021
 
-Filter updated with brand and price categories
+editor: Byungmu Jin\
+date: 09/04/2021\
+title: Filter updated with brand and price categories\
+description:
 
-########################################################
-Written by Byungmu Jin on 06/04/2021
 
-Mid-term report file updated
+editor: Byungmu Jin\
+date: 06/04/2021\
+title: Mid-term report file updated\
+description:
 
-########################################################
-Written by Bo-Han Chen on 06/04/2021
 
-SQL file updated
+editor: Bo-Han Chen\
+date: 06/04/2021\
+title: SQL file updated\
+description:
 
-########################################################
-Written by Bo-Han Chen on 05/04/2021
 
-Functions updated:
+editor: Bo-Han Chen\
+date: 05/04/2021\
+title: Functions updated\
+description:\
  - register
  - sign-in
 
-########################################################
-Written by Bo-Han Chen on 03/04/2021
 
-Mandatory PHP file format uploaded, listed as below:
- - connect.php
+editor: Bo-Han Chen\
+date: 03/04/2021\
+title: Mandatory PHP file format uploaded\
+description:\
+- connect.php
  - dbconnect.php
  - function.php
  - home.php
@@ -36,21 +50,22 @@ Mandatory PHP file format uploaded, listed as below:
  - verification.php
  - index.php
 
-########################################################
-Written by Byungmu Jin on 02/04/2021
 
-Updates List
+editor: Byungmu Jin\
+date: 02/04/2021\
+title: Updates and report\
+description:\
  - Detail page with Breadcrumb
  - Products category page with Breadcrumb
- - Footer included on All pages
-
-Report
+ - Footer included on All pages\
+ Report
  - Outlines and forms
 
-########################################################
-Written by Byungmu Jin on 27/03/2021
 
-Updates list
+editor: Byungmu Jin\
+date: 27/03/2021\
+title: Updates\
+description:\
  - Main page including main navigation, search, carousel, two types of products views, footer
  - Register page
  - Sign-in page
