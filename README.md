@@ -3,6 +3,12 @@
 ### Updates
 ---
 editor: Byungmu Jin\
+date: 23/04/2021\
+title: New CJ logo updated\
+description:
+
+
+editor: Byungmu Jin\
 date: 19/04/2021\
 title: Products resources categorised updated\
 description:
