@@ -3,7 +3,7 @@
 require("dbconnect.php"); 
     $Account= $_POST ["uname"];
     $Password=$_POST ["psw"];
-    $sql = "SELECT *FROM `User` WHERE `Account` = '$Account' AND`Password`= '$Password'";     
+    $sql = "SELECT *FROM User WHERE Account = '$Account' AND Password = '$Password'";     
 //check if the execution was successful
 $result = $conn->query($sql);
  

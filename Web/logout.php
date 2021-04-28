@@ -1,6 +1,11 @@
-<?php  
-session_unset();
-
- echo 'Log Out'; 
-echo '<meta http-equiv=REFRESH CONTENT=1;url=http://localhost/WEb/Web>'; 
+<?php 
+if (ini_get("session.use_cookies")) {
+    $params = session_get_cookie_params();
+    setcookie(session_name(), '', time() - 42000,
+        $params["path"], $params["domain"],
+        $params["secure"], $params["httponly"]
+    );
+}
+session_destroy();
+ header("Location: https://6564test1.000webhostapp.com/"); 
 ?>

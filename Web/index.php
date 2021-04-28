@@ -18,14 +18,7 @@
 </head>
 <body>
    
-<?php 
-   if($_SESSION["username"] == null||$_SESSION["username"]==""){
-        echo "need log in";
-    } else {
-        echo $_SESSION;
-  echo '<a href="logout.php">Log out</a>';
-  } 
-    ?>
+
     <header class="container">
         <section class="row">
             <div class="col-sm-3"></div>
@@ -46,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index.html"><img src="#" alt="LOGO"></a>
+                    <a class="navbar-brand" href="/index.php"><img src="https://6564test1.000webhostapp.com//resources/logo.png" width="150" alt=Logo></a>
                 </div>
             
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -142,9 +135,19 @@
                     </ul>
                 <!-- Right on Navbar -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="members/sign-up.html">Register</a></li>
-                        <li><a href="members/sign-in.html">Sign-in</a></li>
+                        <?php 
+                            if(isset($_SESSION['username']))
+                            {
+                                echo "Hello  ". $_SESSION["username"].', ';
+                                echo '<li><a href="logout.php">Log out</a></li>';
+                            }
+                            else
+                            {
+                                echo '<li><a href="../members/sign-in.html">Sign-in</a></li>';
+                            }
+                        ?>
                         <li><a href="orders/checkout.html">Cart</a></li>  
                     </ul>
                 </div><!-- /.navbar-collapse -->
