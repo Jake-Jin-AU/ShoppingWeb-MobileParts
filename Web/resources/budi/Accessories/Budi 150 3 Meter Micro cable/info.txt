@@ -13,7 +13,7 @@ Budi 150 3 Meter Micro cable
 $28.00
 
 [Color]
-black
+v black
 white
 
 [Description]

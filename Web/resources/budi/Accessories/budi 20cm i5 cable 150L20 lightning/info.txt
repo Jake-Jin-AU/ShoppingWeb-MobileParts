@@ -14,7 +14,7 @@ $14.49
 
 [Color]
 black
-white
+v white
 
 [Description]
 budi 20cm Lightning USB Charge/Sync Cable For iPhone iPad      
