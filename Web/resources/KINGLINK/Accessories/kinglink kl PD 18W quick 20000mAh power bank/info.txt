@@ -1,0 +1,27 @@
+[Keywords]
+kinglink
+Accessories
+Apple
+iPhone
+iPad
+samsung
+galaxy
+note
+battery
+power bank
+
+[Title]
+kinglink kl PD 18W quick 20000mAh power bank
+
+[Price]
+$39.99
+
+[Color]
+black
+
+[Description]
+Portable mobile power series
+
+[Specifications]
++96 HRS
+20000mAh
