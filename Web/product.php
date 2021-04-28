@@ -1,5 +1,5 @@
 <?php
-include "db.php";
+include "dbconnect.php";
 $pid = $_POST["P_ID"];
 //select products based on specific product id
 $sql="SELECT * FROM Product WHERE P_ID ='$pid'";

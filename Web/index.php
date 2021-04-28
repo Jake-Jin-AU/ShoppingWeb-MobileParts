@@ -225,6 +225,47 @@
         </div>
         
 <!-- The latest products -->
+<!-- Samsung products -->
+
+
+        <h2>The latest products</h2>
+        <div class="row end-margin">
+<?php
+include "./php/dbconnect.php";
+$pid = $_POST["P_ID"];
+//select products based on specific product id
+$sql="SELECT * FROM product WHERE P_ID ='$pid'";
+$results= mysqli_query($connection,$sql);
+
+while($row = mysqli_fetch_array($results)){
+    $prod_id = $row["P_ID"];
+    $prod_brand = $row["brand"];
+    $prod_model = $row["model"];
+    $prod_name = $row["p_name"];
+    $prod_price = $row["p_price"];
+    $prod_description = $row["p_description"];
+    $prod_image = $row["prod_image"];
+
+    echo "
+            <div class='col-sm-6 col-md-4'>
+                <div href='#' class='thumbnail'>
+                    <img src='https://www.w3schools.com/bootstrap/ny.jpg' alt='item'>
+                    <div class='caption'>
+                        <h3>$prod_brand $prod_model $prod_name</h3>
+                        <p>
+                            <a href='#' class='btn btn-primary' role='button'>
+                                <span class='glyphicon glyphicon-shopping-cart'></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+    
+        ";
+    }
+?>
+<!--
         <h2>The latest products</h2>
         <div class="row end-margin">
             <div class="col-sm-6 col-md-4">
@@ -312,7 +353,7 @@
                 </div>
             </div>
         </div>
-        
+        -->        
 <!-- The hottest deals -->
         <div class="row">
             <div class="row">
