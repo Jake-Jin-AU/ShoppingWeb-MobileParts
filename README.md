@@ -2,6 +2,12 @@
 ---
 ### Updates
 ---
+editor: Bo-Han Chen\
+date: 28/04/2021\
+title: Pages updated\
+description:
+
+
 editor: Byungmu Jin\
 date: 23/04/2021\
 title: New CJ logo updated\
