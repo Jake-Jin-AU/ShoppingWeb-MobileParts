@@ -230,40 +230,43 @@
 
         <h2>The latest products</h2>
         <div class="row end-margin">
+        
 <?php
 include "./php/dbconnect.php";
-$pid = $_POST["P_ID"];
+//$pid = $_POST["p_id"];
 //select products based on specific product id
-$sql="SELECT * FROM product WHERE P_ID ='$pid'";
-$results= mysqli_query($connection,$sql);
+$sql = "SELECT * FROM Product";
+$results = mysqli_query($conn, $sql);
 
-while($row = mysqli_fetch_array($results)){
+if (!$results){
+    echo "Error";
+}
+else{
+    while($row = mysqli_fetch_array($results)){
     $prod_id = $row["P_ID"];
-    $prod_brand = $row["brand"];
-    $prod_model = $row["model"];
-    $prod_name = $row["p_name"];
-    $prod_price = $row["p_price"];
-    $prod_description = $row["p_description"];
-    $prod_image = $row["prod_image"];
+    $prod_brand = $row["Brand"];
+    $prod_model = $row["Model"];
+    $prod_name = $row["P_Name"];
+    $prod_price = $row["P_Price"];
+    $prod_description = $row["Description"];
 
     echo "
-            <div class='col-sm-6 col-md-4'>
-                <div href='#' class='thumbnail'>
-                    <img src='https://www.w3schools.com/bootstrap/ny.jpg' alt='item'>
-                    <div class='caption'>
-                        <h3>$prod_brand $prod_model $prod_name</h3>
-                        <p>
-                            <a href='#' class='btn btn-primary' role='button'>
-                                <span class='glyphicon glyphicon-shopping-cart'></span>
-                            </a>
-                        </p>
-                    </div>
-                </div>
+    <div class='col-sm-6 col-md-4'>
+        <div href='#' class='thumbnail'>
+            <img src='https://www.w3schools.com/bootstrap/ny.jpg' alt='item'>
+            <div class='caption'>
+                <h3 name='p_id'>$prod_brand $prod_model $prod_name</h3>
+                <p>
+                    <a href='#' class='btn btn-primary' role='button'>
+                        <span class='glyphicon glyphicon-shopping-cart'></span>
+                    </a>
+                </p>
             </div>
-    
-    
-        ";
+        </div>
+    </div>
+    ";
     }
+}
 ?>
 <!--
         <h2>The latest products</h2>
@@ -273,6 +276,7 @@ while($row = mysqli_fetch_array($results)){
                     <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="item">
                     <div class="caption">
                         <h3>Galaxy S21 case</h3>
+
                         <p>Description</p>
                         <p>
                             <a href="#" class="btn btn-primary" role="button">

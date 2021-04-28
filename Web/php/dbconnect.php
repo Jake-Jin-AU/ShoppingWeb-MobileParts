@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "id16687315_6564";
 $password = "AIT6564student@";
-$database = "id16687315_cjdb";
+$database = "id16706090_cjdb";
 // $conn = new mysqli($servername, $username, $password, $dbname);
 // // Check connection
 // if (!$conn) {
